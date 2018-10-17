@@ -6,7 +6,7 @@
 //  Copyright © 2018 Marquis Kurt. All rights reserved.
 //
 
-import Foundation
-
-print("Hello, World!")
-
+let myEntity = Entity("Entity 1", "nil", 32)
+print(myEntity.name)
+myEntity.takeDamage(35)
+print(myEntity.health)
