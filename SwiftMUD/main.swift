@@ -6,7 +6,15 @@
 //  Copyright © 2018 Marquis Kurt. All rights reserved.
 //
 
-let myEntity = Entity("Entity 1", "nil", 32)
-print(myEntity.name)
-myEntity.takeDamage(35)
-print(myEntity.health)
+let myPlayer = Player("Henry")
+var theMonster: Monster? = Monster("Bendy", 5)
+let theAttack = AttackScene(myPlayer, theMonster!)
+
+while (theMonster != nil) {
+    if (theAttack.enemy == nil) {
+        theMonster = nil
+    } else {
+        theAttack.attack()
+    }
+    
+}

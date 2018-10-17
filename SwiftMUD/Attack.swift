@@ -7,3 +7,38 @@
 //
 
 import Foundation
+
+class AttackScene {
+    
+    var player: Player?
+    var enemy: Monster?
+    
+    func attack() {
+        enemy?.takeDamage((player?.level)!)
+        print("You strike first.")
+        if (enemy?.health == 0) {
+            enemy = nil
+            print("Congratulations! You've killed the monster.\nYour XP has been upgraded.")
+            player?.experience += 5
+            
+            if ((player?.experience)! >= 25) {
+                player?.levelUp(1)
+            }
+        } else {
+            print("It wasn't enough to kill the monster (health now \(String(describing: enemy?.health)).\nIt is now the monster's turn.")
+            enemy?.attackPlayer(player!)
+            
+            if (player?.health == 0) {
+                player = nil
+                print("You died!\nThe monster has killed you.")
+                exit(1)
+            }
+            print("The monster hasn't killed you yet! Your health is \(String(describing: player?.health)).")
+        }
+    }
+    
+    init(_ whichPlayer: Player, _ whichMonster: Monster) {
+        player = whichPlayer
+        enemy = whichMonster
+    }
+}

@@ -41,5 +41,7 @@ class Player: Entity {
      */
     init(_ myName: String) {
         super.init(myName, "Player", 100)
+        experience = 0
+        level = 1
     }
 }
