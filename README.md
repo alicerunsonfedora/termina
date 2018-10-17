@@ -1,2 +1,5 @@
-# swiftmud
-A multi-user dungeon written in Swift
+# SwiftMUD
+
+## Objectives
+* Write a MUD in Swift
+* Compare to the methods used in Java
