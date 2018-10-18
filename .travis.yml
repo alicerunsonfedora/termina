@@ -2,6 +2,7 @@ language: swift
 xcode_project: SwiftMUD.xcodeproj # path to your xcodeproj folder
 xcode_scheme: SwiftMUDTests
 xcode_destination: platform=macOS
+osx_image: xcode10
 deploy:
   provider: releases
   api_key:
