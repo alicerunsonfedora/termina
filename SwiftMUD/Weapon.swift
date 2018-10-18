@@ -17,7 +17,7 @@ class Weapon: Item {
      Equip the weapon and level up the player temporarily.
      */
     func equip() {
-        equipper.levelUp(5)
+        equipper.levelUp(level)
     }
     
     /**

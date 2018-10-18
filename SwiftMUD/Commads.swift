@@ -31,8 +31,11 @@ class CommandInterpreter {
                 if obj is Potion {
                     obj.use()
                     break
-                } else {
+                } else if !(obj is Potion) {
                     print("You can't use \(obj.name) to heal yourself.")
+                    room.myItems.removeFirst()
+                } else {
+                    print("There's nothing here, silly.")
                 }
                 break
             }
@@ -64,7 +67,11 @@ class CommandInterpreter {
             print("Items: ")
             
             for obj in room.myItems {
-                print(" - \(obj.name)")
+                if obj is Weapon {
+                    print(" - \(obj.name) [Level \(obj.effect)]")
+                } else {
+                    print(" - \(obj.name)")
+                }
             }
             break
         case "leave":
@@ -84,9 +91,11 @@ class CommandInterpreter {
             }
         case "help":
             print("""
+===List of Commands===
 aboutroom - displays information about the room.
 aboutself - displays information about oneself.
 attack - attacks the monster in the room, if present.
+equip - Equip the weapon in the room, if possible.
 exit - quits the game.
 help - displays this screen.
 heal - heals your health.

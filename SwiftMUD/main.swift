@@ -6,15 +6,20 @@
 //  Copyright © 2018 Marquis Kurt. All rights reserved.
 //
 
-let version = "1.0.0beta1"
+let version = "1.0.0beta2"
 
 print("""
 SwiftMUD \(version)
 Copyright © 2018 Marquis Kurt. All rights reserved.
 """)
 
-let myPlayer = Player("Henry")
+print("You! What is your name?")
+let myPlayer = Player(readLine()!)
 let command = CommandInterpreter()
+
+print("\n")
+command.parseCommand("help", Room(myPlayer))
+print("\n")
 
 while true {
     var theDarkRoom = Room(myPlayer)
@@ -23,7 +28,7 @@ while true {
         if theDarkRoom.isDestroyed == true {
             theDarkRoom = Room(myPlayer)
         }
-        print("Type a command to continue")
+        print("What would you like to do?")
         command.parseCommand(readLine(strippingNewline: true)!, theDarkRoom)
     }
 }

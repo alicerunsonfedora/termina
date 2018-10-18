@@ -21,7 +21,7 @@ class Item {
             print("[E] Item can no longer be used.")
         } else {
             currentUse = currentUse - 1
-            print("[W] This item now has \(maximumUse - currentUse) uses left!")
+            print("[W] This item now has \(currentUse + 1) uses left!")
         }
     }
     
