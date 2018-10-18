@@ -1,5 +1,6 @@
 # Swift Dungeons
-A multi-uder dungeon game written in Swift
+A multi-user dungeon game written in Swift
+![Build Status](https://img.shields.io/travis/com/alicerunsonfedora/swiftmud.svg?longCache=true&style=flat-square)
 
 ## Features
 - [x] Infinite room generation

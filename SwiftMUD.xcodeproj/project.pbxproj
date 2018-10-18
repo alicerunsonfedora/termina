@@ -16,7 +16,6 @@
 		BF8B01A62177E11B00A69A77 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A42177E11B00A69A77 /* Player.swift */; };
 		BF8B01A82177E78600A69A77 /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A72177E78600A69A77 /* Attack.swift */; };
 		BF8B01AA2177E85300A69A77 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A92177E85300A69A77 /* Monster.swift */; };
-		BFACD1092179261700140AF5 /* SwiftMUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACD1082179261700140AF5 /* SwiftMUDTests.swift */; };
 		BFD33B2E2178FA7F0052C6D7 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD33B2D2178FA7F0052C6D7 /* Weapon.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		BF8B01A92177E85300A69A77 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		BFACD0FD21791CBA00140AF5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFACD0FE21791EA000140AF5 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		BFACD1062179261700140AF5 /* SwiftMUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFACD1082179261700140AF5 /* SwiftMUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMUDTests.swift; sourceTree = "<group>"; };
 		BFACD10A2179261700140AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD33B2D2178FA7F0052C6D7 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
@@ -53,13 +51,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF8B01962177E0BA00A69A77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFACD1032179261700140AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				BF8B01992177E0BA00A69A77 /* SwiftMUD */,
-				BFACD1062179261700140AF5 /* SwiftMUDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,23 +125,6 @@
 			productReference = BF8B01992177E0BA00A69A77 /* SwiftMUD */;
 			productType = "com.apple.product-type.tool";
 		};
-		BFACD1052179261700140AF5 /* SwiftMUDTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFACD10D2179261700140AF5 /* Build configuration list for PBXNativeTarget "SwiftMUDTests" */;
-			buildPhases = (
-				BFACD1022179261700140AF5 /* Sources */,
-				BFACD1032179261700140AF5 /* Frameworks */,
-				BFACD1042179261700140AF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftMUDTests;
-			productName = SwiftMUDTests;
-			productReference = BFACD1062179261700140AF5 /* SwiftMUDTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,9 +136,6 @@
 				ORGANIZATIONNAME = "Marquis Kurt";
 				TargetAttributes = {
 					BF8B01982177E0BA00A69A77 = {
-						CreatedOnToolsVersion = 10.0;
-					};
-					BFACD1052179261700140AF5 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -183,20 +153,9 @@
 			projectRoot = "";
 			targets = (
 				BF8B01982177E0BA00A69A77 /* SwiftMUD */,
-				BFACD1052179261700140AF5 /* SwiftMUDTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BFACD1042179261700140AF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF8B01952177E0BA00A69A77 /* Sources */ = {
@@ -213,14 +172,6 @@
 				BF8B019D2177E0BA00A69A77 /* main.swift in Sources */,
 				BF656CC521781A6700B4F613 /* Commads.swift in Sources */,
 				BF8B01A82177E78600A69A77 /* Attack.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFACD1022179261700140AF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFACD1092179261700140AF5 /* SwiftMUDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,46 +317,6 @@
 			};
 			name = Release;
 		};
-		BFACD10B2179261700140AF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FQQXSP79X3;
-				INFOPLIST_FILE = SwiftMUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.marquiskurt.SwiftMUDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		BFACD10C2179261700140AF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FQQXSP79X3;
-				INFOPLIST_FILE = SwiftMUDTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.marquiskurt.SwiftMUDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,15 +334,6 @@
 			buildConfigurations = (
 				BF8B01A12177E0BA00A69A77 /* Debug */,
 				BF8B01A22177E0BA00A69A77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFACD10D2179261700140AF5 /* Build configuration list for PBXNativeTarget "SwiftMUDTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFACD10B2179261700140AF5 /* Debug */,
-				BFACD10C2179261700140AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
