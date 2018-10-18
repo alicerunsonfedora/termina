@@ -10,6 +10,7 @@ class Player: Entity {
     
     /**
      Heals the player by an amount. If resultant health is over maximum, sets it to maximum instead.
+     Will also increase XP by 5 points.
      
      - Parameters:
         - amount: The amount to heal by.
@@ -19,6 +20,10 @@ class Player: Entity {
 
         if (health > maximumHealth) {
             health = maximumHealth
+        }
+        experience += 5
+        if (experience >= 25) {
+            levelUp(1)
         }
     }
     

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BF656CC521781A6700B4F613 /* Commads.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF656CC421781A6700B4F613 /* Commads.swift */; };
+		BF72F01D2178C01900009EC9 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF72F01C2178C01900009EC9 /* Room.swift */; };
+		BF72F01F2178C6E900009EC9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF72F01E2178C6E800009EC9 /* Item.swift */; };
+		BF72F0212178C7DE00009EC9 /* Potion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF72F0202178C7DE00009EC9 /* Potion.swift */; };
 		BF8B019D2177E0BA00A69A77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B019C2177E0BA00A69A77 /* main.swift */; };
 		BF8B01A52177E11B00A69A77 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A32177E11B00A69A77 /* Entity.swift */; };
 		BF8B01A62177E11B00A69A77 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A42177E11B00A69A77 /* Player.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		BF656CC421781A6700B4F613 /* Commads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commads.swift; sourceTree = "<group>"; };
+		BF72F01C2178C01900009EC9 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		BF72F01E2178C6E800009EC9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BF72F0202178C7DE00009EC9 /* Potion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potion.swift; sourceTree = "<group>"; };
 		BF8B01992177E0BA00A69A77 /* SwiftMUD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftMUD; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8B019C2177E0BA00A69A77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BF8B01A32177E11B00A69A77 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
@@ -73,6 +79,9 @@
 				BF8B01A72177E78600A69A77 /* Attack.swift */,
 				BF8B01A92177E85300A69A77 /* Monster.swift */,
 				BF656CC421781A6700B4F613 /* Commads.swift */,
+				BF72F01C2178C01900009EC9 /* Room.swift */,
+				BF72F01E2178C6E800009EC9 /* Item.swift */,
+				BF72F0202178C7DE00009EC9 /* Potion.swift */,
 			);
 			path = SwiftMUD;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			files = (
 				BF8B01AA2177E85300A69A77 /* Monster.swift in Sources */,
 				BF8B01A52177E11B00A69A77 /* Entity.swift in Sources */,
+				BF72F01D2178C01900009EC9 /* Room.swift in Sources */,
+				BF72F0212178C7DE00009EC9 /* Potion.swift in Sources */,
 				BF8B01A62177E11B00A69A77 /* Player.swift in Sources */,
+				BF72F01F2178C6E900009EC9 /* Item.swift in Sources */,
 				BF8B019D2177E0BA00A69A77 /* main.swift in Sources */,
 				BF656CC521781A6700B4F613 /* Commads.swift in Sources */,
 				BF8B01A82177E78600A69A77 /* Attack.swift in Sources */,

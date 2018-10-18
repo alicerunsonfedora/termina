@@ -7,11 +7,10 @@
 //
 
 let myPlayer = Player("Henry")
-var theMonster: Monster? = Monster("Bendy", 5)
-let theAttack = AttackScene(myPlayer, theMonster!)
 let command = CommandInterpreter()
+let theDarkRoom = Room(myPlayer)
 
 while true {
     print("Type a command to continue")
-    command.parseCommand(readLine(strippingNewline: true)!)
+    command.parseCommand(readLine(strippingNewline: true)!, theDarkRoom)
 }

@@ -25,7 +25,9 @@ class AttackScene {
                 player?.levelUp(1)
             }
         } else {
-            print("It wasn't enough to kill the monster (health now \(String(describing: enemy?.health)).\nIt is now the monster's turn.")
+            let enemyHealth = String(enemy!.health)
+            let selfHealth = String(player!.health)
+            print("It wasn't enough to kill the monster (health now \(enemyHealth).\nIt is now the monster's turn.")
             enemy?.attackPlayer(player!)
             
             if (player?.health == 0) {
@@ -33,7 +35,7 @@ class AttackScene {
                 print("You died!\nThe monster has killed you.")
                 exit(1)
             }
-            print("The monster hasn't killed you yet! Your health is \(String(describing: player?.health)).")
+            print("The monster hasn't killed you yet! Your health is \(selfHealth).")
         }
     }
     
