@@ -26,6 +26,16 @@ class CommandInterpreter {
                 print("You cannot attack now, there is no monster nearby.")
             }
             break
+        case "heal":
+            for obj in room.myItems {
+                if obj is Potion {
+                    obj.use()
+                    break
+                } else {
+                    print("You can't use \(obj.name) to heal yourself.")
+                }
+                break
+            }
         case "exit":
             print("Are you sure you want to exit? (y/n)")
             
@@ -51,14 +61,36 @@ class CommandInterpreter {
             } else {
                 print("No threats detected.")
             }
-            print()
+            print("Items: ")
+            
+            for obj in room.myItems {
+                print(" - \(obj.name)")
+            }
             break
+        case "leave":
+            if room.monsterHere == false {
+                room.isDestroyed = true
+            } else {
+                print("[E] You cannot leave now, there are monsters nearby.")
+            }
+            break
+        case "equip":
+            for obj in room.myItems {
+                if obj is Weapon {
+                    let useWeapon: Weapon = obj as! Weapon
+                    useWeapon.equip()
+                    room.myItems.removeLast()
+                }
+            }
         case "help":
             print("""
+aboutroom - displays information about the room.
 aboutself - displays information about oneself.
 attack - attacks the monster in the room, if present.
 exit - quits the game.
 help - displays this screen.
+heal - heals your health.
+leave - leave the room, if possible.
 """)
             break
         default:

@@ -12,7 +12,8 @@ class Room {
     var myMonster: Monster?
     var monsterHere = false
     var myAttackSequence: AttackScene?
-    
+    var myItems = [Item]()
+    var isDestroyed = false
     
     /**
      Attempt to attack the monster in the room. If the monster is dead from attack, removes it from Room.
@@ -39,6 +40,16 @@ class Room {
             myMonster = Monster("Searcher", chance)
             monsterHere = true
             myAttackSequence = AttackScene(player, myMonster!)
+        }
+        
+        if (chance >= 5) {
+            let myPotion = Potion("Potion of Quick Healing", player)
+            myItems.append(myPotion)
+        }
+        
+        if (chance >= 3 && chance <= 6) {
+            let myWeapon = Weapon("Weapon of Death", chance, player)
+            myItems.append(myWeapon)
         }
     }
     

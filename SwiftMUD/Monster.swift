@@ -28,10 +28,7 @@ class Monster: Entity {
      */
     override func takeDamage(_ amount: Int) {
         let chance = Int.random(in: 0 ... 9)
-        
-        if (chance <= 9) {
-            super.takeDamage(amount)
-        }
+        super.takeDamage(chance)
     }
     
     /**
@@ -44,6 +41,6 @@ class Monster: Entity {
     init(_ monsterName: String, _ myLevel: Int) {
         super.init(monsterName, "Monster", 50)
         level = myLevel
-        attack = myLevel * 5 % 2
+        attack = myLevel - 2
     }
 }

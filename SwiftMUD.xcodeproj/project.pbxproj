@@ -16,6 +16,7 @@
 		BF8B01A62177E11B00A69A77 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A42177E11B00A69A77 /* Player.swift */; };
 		BF8B01A82177E78600A69A77 /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A72177E78600A69A77 /* Attack.swift */; };
 		BF8B01AA2177E85300A69A77 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B01A92177E85300A69A77 /* Monster.swift */; };
+		BFD33B2E2178FA7F0052C6D7 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD33B2D2178FA7F0052C6D7 /* Weapon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		BF8B01A42177E11B00A69A77 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		BF8B01A72177E78600A69A77 /* Attack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attack.swift; sourceTree = "<group>"; };
 		BF8B01A92177E85300A69A77 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		BFD33B2D2178FA7F0052C6D7 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BF72F01C2178C01900009EC9 /* Room.swift */,
 				BF72F01E2178C6E800009EC9 /* Item.swift */,
 				BF72F0202178C7DE00009EC9 /* Potion.swift */,
+				BFD33B2D2178FA7F0052C6D7 /* Weapon.swift */,
 			);
 			path = SwiftMUD;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				BF72F01D2178C01900009EC9 /* Room.swift in Sources */,
 				BF72F0212178C7DE00009EC9 /* Potion.swift in Sources */,
 				BF8B01A62177E11B00A69A77 /* Player.swift in Sources */,
+				BFD33B2E2178FA7F0052C6D7 /* Weapon.swift in Sources */,
 				BF72F01F2178C6E900009EC9 /* Item.swift in Sources */,
 				BF8B019D2177E0BA00A69A77 /* main.swift in Sources */,
 				BF656CC521781A6700B4F613 /* Commads.swift in Sources */,
