@@ -13,6 +13,9 @@ class AttackScene {
     var player: Player?
     var enemy: Monster?
     
+    /**
+     Allow each entity to attack each other.
+     */
     func attack() {
         enemy?.takeDamage((player?.level)!)
         print("You strike first.")

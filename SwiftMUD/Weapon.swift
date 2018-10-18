@@ -13,20 +13,30 @@ class Weapon: Item {
     var level: Int!
     var equipper: Player!
     
+    /**
+     Equip the weapon and level up the player temporarily.
+     */
     func equip() {
         equipper.levelUp(5)
     }
     
+    /**
+     Unequip the weapon.
+     */
     func unequip() {
         equipper.level = equipper.level - 5
     }
     
+    /**
+     Use the weapon and decrease its use value, including the player's level.
+     */
     override func use() {
         if (currentUse <= 0) {
             print("[E] Your weapon can no longer be used!")
             unequip()
         } else {
             super.use()
+            equipper.level = equipper.level - 1
         }
     }
     
