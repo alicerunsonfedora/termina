@@ -1,0 +1,11 @@
+language: swift
+xcode_project: SwiftMUD.xcodeproj # path to your xcodeproj folder
+xcode_scheme: SwiftMUD
+xcode_destination: platform=macOS
+deploy:
+  provider: releases
+  api_key:
+    secure: $GITHUB_API_KEY
+  file_glob: true
+  on:
+    tags: true
