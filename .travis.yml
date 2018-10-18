@@ -5,7 +5,7 @@ language: swift
 osx_image: xcode10
 
 script:
-  xcodebuild -scheme SwiftMUD -project SwiftMUD.xcodeproj build CODE_SIGNING_REQUIRED=NO
+  xcodebuild -scheme SwiftMUD -project SwiftMUD.xcodeproj build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
 deploy:
   provider: releases
