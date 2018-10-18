@@ -2,9 +2,9 @@
 A multi-uder dungeon game written in Swift
 
 ## Features
-- [ X ] Infinite room generation
-- [ X ] Experience and level system
-- [ X ] Attack and heal system
+- [x] Infinite room generation
+- [x] Experience and level system
+- [x] Attack and heal system
 - [ ] Persistent data or load games
 - [ ] Multiplayer functionality
 - [ ] Inventory system
