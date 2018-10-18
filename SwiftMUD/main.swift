@@ -9,12 +9,9 @@
 let myPlayer = Player("Henry")
 var theMonster: Monster? = Monster("Bendy", 5)
 let theAttack = AttackScene(myPlayer, theMonster!)
+let command = CommandInterpreter()
 
-while (theMonster != nil) {
-    if (theAttack.enemy == nil) {
-        theMonster = nil
-    } else {
-        theAttack.attack()
-    }
-    
+while true {
+    print("Type a command to continue")
+    command.parseCommand(readLine(strippingNewline: true)!)
 }
