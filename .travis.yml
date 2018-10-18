@@ -1,6 +1,6 @@
 language: swift
 xcode_project: SwiftMUD.xcodeproj # path to your xcodeproj folder
-xcode_scheme: SwiftMUD
+xcode_scheme: SwiftMUDTests
 xcode_destination: platform=macOS
 deploy:
   provider: releases
