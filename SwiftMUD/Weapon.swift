@@ -19,12 +19,11 @@ class Weapon: Item {
     func equip() {
         equipper.levelUp(level)
     }
-    
     /**
      Unequip the weapon.
      */
     func unequip() {
-        equipper.level = equipper.level - 5
+        equipper.level = equipper.level - level
     }
     
     /**

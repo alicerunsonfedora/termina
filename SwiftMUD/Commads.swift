@@ -68,7 +68,9 @@ class CommandInterpreter {
             
             for obj in room.myItems {
                 if obj is Weapon {
-                    print(" - \(obj.name) [Level \(obj.effect)]")
+                    let thisWeapon = obj as! Weapon
+                    let weaponLevel = String(thisWeapon.level!)
+                    print(" - \(thisWeapon.name) [Level \(weaponLevel)]")
                 } else {
                     print(" - \(obj.name)")
                 }
@@ -84,7 +86,7 @@ class CommandInterpreter {
         case "equip":
             for obj in room.myItems {
                 if obj is Weapon {
-                    let useWeapon: Weapon = obj as! Weapon
+                    let useWeapon = obj as! Weapon
                     useWeapon.equip()
                     room.myItems.removeLast()
                 }
