@@ -35,7 +35,6 @@
 		BFACD0FD21791CBA00140AF5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFACD0FE21791EA000140AF5 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		BFAD6AEB217A268600DFD6B8 /* Termina */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Termina; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFAD6AF2217A26BB00DFD6B8 /* Termina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Termina-Bridging-Header.h"; sourceTree = "<group>"; };
 		BFAD6AF3217A26BC00DFD6B8 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		BFAD6AF4217A26BC00DFD6B8 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BFAD6AF5217A26BC00DFD6B8 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 				BFAD6AF9217A26BC00DFD6B8 /* Potion.swift */,
 				BFAD6AF5217A26BC00DFD6B8 /* Room.swift */,
 				BFAD6AF7217A26BC00DFD6B8 /* Weapon.swift */,
-				BFAD6AF2217A26BB00DFD6B8 /* Termina-Bridging-Header.h */,
 			);
 			path = Termina;
 			sourceTree = "<group>";
