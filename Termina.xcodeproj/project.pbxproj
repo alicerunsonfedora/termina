@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFAD6AFD217A26BC00DFD6B8 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF3217A26BC00DFD6B8 /* Entity.swift */; };
+		BFAD6AFE217A26BC00DFD6B8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF4217A26BC00DFD6B8 /* Item.swift */; };
+		BFAD6AFF217A26BC00DFD6B8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF5217A26BC00DFD6B8 /* Room.swift */; };
+		BFAD6B01217A26BC00DFD6B8 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF7217A26BC00DFD6B8 /* Weapon.swift */; };
+		BFAD6B02217A26BC00DFD6B8 /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF8217A26BC00DFD6B8 /* Attack.swift */; };
+		BFAD6B03217A26BC00DFD6B8 /* Potion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AF9217A26BC00DFD6B8 /* Potion.swift */; };
+		BFAD6B04217A26BC00DFD6B8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AFA217A26BC00DFD6B8 /* Monster.swift */; };
+		BFAD6B05217A26BC00DFD6B8 /* Commads.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AFB217A26BC00DFD6B8 /* Commads.swift */; };
+		BFAD6B06217A26BC00DFD6B8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AFC217A26BC00DFD6B8 /* Player.swift */; };
+		BFAD6B08217A270400DFD6B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6B07217A270400DFD6B8 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFAD6AE9217A268600DFD6B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFACD0FD21791CBA00140AF5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFACD0FE21791EA000140AF5 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		BFAD6AEB217A268600DFD6B8 /* Termina */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Termina; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAD6AF2217A26BB00DFD6B8 /* Termina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Termina-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFAD6AF3217A26BC00DFD6B8 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		BFAD6AF4217A26BC00DFD6B8 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BFAD6AF5217A26BC00DFD6B8 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		BFAD6AF7217A26BC00DFD6B8 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		BFAD6AF8217A26BC00DFD6B8 /* Attack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attack.swift; sourceTree = "<group>"; };
+		BFAD6AF9217A26BC00DFD6B8 /* Potion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potion.swift; sourceTree = "<group>"; };
+		BFAD6AFA217A26BC00DFD6B8 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		BFAD6AFB217A26BC00DFD6B8 /* Commads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commads.swift; sourceTree = "<group>"; };
+		BFAD6AFC217A26BC00DFD6B8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BFAD6B07217A270400DFD6B8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAD6AE8217A268600DFD6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF8B01902177E0BA00A69A77 = {
+			isa = PBXGroup;
+			children = (
+				BFACD0FE21791EA000140AF5 /* .travis.yml */,
+				BFACD0FD21791CBA00140AF5 /* README.md */,
+				BFAD6AEC217A268600DFD6B8 /* Termina */,
+				BF8B019A2177E0BA00A69A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8B019A2177E0BA00A69A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD6AEB217A268600DFD6B8 /* Termina */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAD6AEC217A268600DFD6B8 /* Termina */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD6B07217A270400DFD6B8 /* main.swift */,
+				BFAD6AF8217A26BC00DFD6B8 /* Attack.swift */,
+				BFAD6AFB217A26BC00DFD6B8 /* Commads.swift */,
+				BFAD6AF3217A26BC00DFD6B8 /* Entity.swift */,
+				BFAD6AF4217A26BC00DFD6B8 /* Item.swift */,
+				BFAD6AFA217A26BC00DFD6B8 /* Monster.swift */,
+				BFAD6AFC217A26BC00DFD6B8 /* Player.swift */,
+				BFAD6AF9217A26BC00DFD6B8 /* Potion.swift */,
+				BFAD6AF5217A26BC00DFD6B8 /* Room.swift */,
+				BFAD6AF7217A26BC00DFD6B8 /* Weapon.swift */,
+				BFAD6AF2217A26BB00DFD6B8 /* Termina-Bridging-Header.h */,
+			);
+			path = Termina;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAD6AEA217A268600DFD6B8 /* Termina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "Termina" */;
+			buildPhases = (
+				BFAD6AE7217A268600DFD6B8 /* Sources */,
+				BFAD6AE8217A268600DFD6B8 /* Frameworks */,
+				BFAD6AE9217A268600DFD6B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Termina;
+			productName = Termina;
+			productReference = BFAD6AEB217A268600DFD6B8 /* Termina */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8B01912177E0BA00A69A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Marquis Kurt";
+				TargetAttributes = {
+					BFAD6AEA217A268600DFD6B8 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = BF8B01942177E0BA00A69A77 /* Build configuration list for PBXProject "Termina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF8B01902177E0BA00A69A77;
+			productRefGroup = BF8B019A2177E0BA00A69A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAD6AEA217A268600DFD6B8 /* Termina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAD6AE7217A268600DFD6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAD6B04217A26BC00DFD6B8 /* Monster.swift in Sources */,
+				BFAD6B01217A26BC00DFD6B8 /* Weapon.swift in Sources */,
+				BFAD6AFE217A26BC00DFD6B8 /* Item.swift in Sources */,
+				BFAD6AFD217A26BC00DFD6B8 /* Entity.swift in Sources */,
+				BFAD6B05217A26BC00DFD6B8 /* Commads.swift in Sources */,
+				BFAD6AFF217A26BC00DFD6B8 /* Room.swift in Sources */,
+				BFAD6B08217A270400DFD6B8 /* main.swift in Sources */,
+				BFAD6B02217A26BC00DFD6B8 /* Attack.swift in Sources */,
+				BFAD6B06217A26BC00DFD6B8 /* Player.swift in Sources */,
+				BFAD6B03217A26BC00DFD6B8 /* Potion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF8B019E2177E0BA00A69A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF8B019F2177E0BA00A69A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BFAD6AF0217A268600DFD6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQQXSP79X3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Termina/Termina-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BFAD6AF1217A268600DFD6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQQXSP79X3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Termina/Termina-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8B01942177E0BA00A69A77 /* Build configuration list for PBXProject "Termina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8B019E2177E0BA00A69A77 /* Debug */,
+				BF8B019F2177E0BA00A69A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "Termina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAD6AF0217A268600DFD6B8 /* Debug */,
+				BFAD6AF1217A268600DFD6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8B01912177E0BA00A69A77 /* Project object */;
+}

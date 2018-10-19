@@ -1,0 +1,16 @@
+language: swift
+# xcode_project: Termina.xcodeproj # path to your xcodeproj folder
+# xcode_scheme: TerminaTests
+# xcode_destination: platform=macOS
+osx_image: xcode10
+
+script:
+  xcodebuild -scheme Termina -project Termina.xcodeproj build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+deploy:
+  provider: releases
+  api_key:
+    secure: $GITHUB_API_KEY
+  file_glob: true
+  on:
+    tags: true
