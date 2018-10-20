@@ -17,6 +17,9 @@
 		BFAD6B05217A26BC00DFD6B8 /* Commads.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AFB217A26BC00DFD6B8 /* Commads.swift */; };
 		BFAD6B06217A26BC00DFD6B8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6AFC217A26BC00DFD6B8 /* Player.swift */; };
 		BFAD6B08217A270400DFD6B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD6B07217A270400DFD6B8 /* main.swift */; };
+		BFD81C7C217A61A20049B5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD81C7B217A61A20049B5D4 /* AppDelegate.swift */; };
+		BFD81C7E217A61A20049B5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD81C7D217A61A20049B5D4 /* Assets.xcassets */; };
+		BFD81C81217A61A20049B5D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD81C7F217A61A20049B5D4 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,10 +48,23 @@
 		BFAD6AFB217A26BC00DFD6B8 /* Commads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commads.swift; sourceTree = "<group>"; };
 		BFAD6AFC217A26BC00DFD6B8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		BFAD6B07217A270400DFD6B8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BFD81C79217A61A20049B5D4 /* Termina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Termina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD81C7B217A61A20049B5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD81C7D217A61A20049B5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD81C80217A61A20049B5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BFD81C82217A61A20049B5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD81C83217A61A20049B5D4 /* TerminaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TerminaApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFAD6AE8217A268600DFD6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD81C76217A61A20049B5D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,6 +80,7 @@
 				BFACD0FE21791EA000140AF5 /* .travis.yml */,
 				BFACD0FD21791CBA00140AF5 /* README.md */,
 				BFAD6AEC217A268600DFD6B8 /* Termina */,
+				BFD81C7A217A61A20049B5D4 /* TerminaApp */,
 				BF8B019A2177E0BA00A69A77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				BFAD6AEB217A268600DFD6B8 /* Termina */,
+				BFD81C79217A61A20049B5D4 /* Termina.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,12 +111,24 @@
 			path = Termina;
 			sourceTree = "<group>";
 		};
+		BFD81C7A217A61A20049B5D4 /* TerminaApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFD81C7B217A61A20049B5D4 /* AppDelegate.swift */,
+				BFD81C7D217A61A20049B5D4 /* Assets.xcassets */,
+				BFD81C7F217A61A20049B5D4 /* MainMenu.xib */,
+				BFD81C82217A61A20049B5D4 /* Info.plist */,
+				BFD81C83217A61A20049B5D4 /* TerminaApp.entitlements */,
+			);
+			path = TerminaApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFAD6AEA217A268600DFD6B8 /* Termina */ = {
+		BFAD6AEA217A268600DFD6B8 /* TerminaCLI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "Termina" */;
+			buildConfigurationList = BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "TerminaCLI" */;
 			buildPhases = (
 				BFAD6AE7217A268600DFD6B8 /* Sources */,
 				BFAD6AE8217A268600DFD6B8 /* Frameworks */,
@@ -108,10 +138,27 @@
 			);
 			dependencies = (
 			);
-			name = Termina;
+			name = TerminaCLI;
 			productName = Termina;
 			productReference = BFAD6AEB217A268600DFD6B8 /* Termina */;
 			productType = "com.apple.product-type.tool";
+		};
+		BFD81C78217A61A20049B5D4 /* Termina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD81C84217A61A20049B5D4 /* Build configuration list for PBXNativeTarget "Termina" */;
+			buildPhases = (
+				BFD81C75217A61A20049B5D4 /* Sources */,
+				BFD81C76217A61A20049B5D4 /* Frameworks */,
+				BFD81C77217A61A20049B5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Termina;
+			productName = TerminaApp;
+			productReference = BFD81C79217A61A20049B5D4 /* Termina.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -127,6 +174,9 @@
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
 					};
+					BFD81C78217A61A20049B5D4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = BF8B01942177E0BA00A69A77 /* Build configuration list for PBXProject "Termina" */;
@@ -135,16 +185,30 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BF8B01902177E0BA00A69A77;
 			productRefGroup = BF8B019A2177E0BA00A69A77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFAD6AEA217A268600DFD6B8 /* Termina */,
+				BFAD6AEA217A268600DFD6B8 /* TerminaCLI */,
+				BFD81C78217A61A20049B5D4 /* Termina */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD81C77217A61A20049B5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD81C7E217A61A20049B5D4 /* Assets.xcassets in Resources */,
+				BFD81C81217A61A20049B5D4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFAD6AE7217A268600DFD6B8 /* Sources */ = {
@@ -164,7 +228,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFD81C75217A61A20049B5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD81C7C217A61A20049B5D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFD81C7F217A61A20049B5D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD81C80217A61A20049B5D4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF8B019E2177E0BA00A69A77 /* Debug */ = {
@@ -293,8 +376,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Termina/Termina-Bridging-Header.h";
+				PRODUCT_NAME = Termina;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
@@ -311,8 +393,45 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				PRODUCT_NAME = Termina;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		BFD81C85217A61A20049B5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TerminaApp/TerminaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FQQXSP79X3;
+				INFOPLIST_FILE = TerminaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.marquiskurt.TerminaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Termina/Termina-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BFD81C86217A61A20049B5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TerminaApp/TerminaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FQQXSP79X3;
+				INFOPLIST_FILE = TerminaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.marquiskurt.TerminaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -329,11 +448,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "Termina" */ = {
+		BFAD6AEF217A268600DFD6B8 /* Build configuration list for PBXNativeTarget "TerminaCLI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFAD6AF0217A268600DFD6B8 /* Debug */,
 				BFAD6AF1217A268600DFD6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD81C84217A61A20049B5D4 /* Build configuration list for PBXNativeTarget "Termina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD81C85217A61A20049B5D4 /* Debug */,
+				BFD81C86217A61A20049B5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

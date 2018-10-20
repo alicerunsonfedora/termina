@@ -7,6 +7,7 @@
 //
 class Player: Entity {
     var experience, level: Int!
+    var inventory = [Item]()
     
     /**
      Heals the player by an amount. If resultant health is over maximum, sets it to maximum instead.

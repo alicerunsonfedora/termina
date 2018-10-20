@@ -17,13 +17,15 @@ class Weapon: Item {
      Equip the weapon and level up the player temporarily.
      */
     func equip() {
+        equipper.inventory.append(self)
         equipper.levelUp(level)
     }
     /**
      Unequip the weapon.
      */
     func unequip() {
-        equipper.level = equipper.level - level
+        // equipper.level = equipper.level - level
+        equipper.inventory.removeFirst()
     }
     
     /**

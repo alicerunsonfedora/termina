@@ -17,7 +17,12 @@ class AttackScene {
      Allow each entity to attack each other.
      */
     func attack() {
-        enemy?.takeDamage((player?.level)!)
+        for item in (player?.inventory)! {
+            if item is Weapon {
+                item.use()
+            }
+        }
+        enemy?.takeDamage((player?.level)! * 2)
         print("You strike first.")
         if (enemy?.health == 0) {
             enemy = nil
